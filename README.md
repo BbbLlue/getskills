@@ -24,8 +24,9 @@ swiper插件制作轮播图
     justify-content: center; /* 主轴上的元素居中对齐 (调整位置) */
     
 3.定位元素无法覆盖下方元素
-![Alt text](image.png)
-检查下方元素的position：absolute relative 会影响改变布局方式
+  检查下方元素的position：absolute relative 会影响改变布局方式
+
+  z-index调整层叠性
 
 4.js代码无法运行，要确保元素全部加载完成
     document.addEventListener('DOMContentLoaded', function () {
